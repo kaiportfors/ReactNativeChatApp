@@ -24,10 +24,10 @@ class Home extends Component {
          style={styles.nameInput}
          onChangeText={(text) => {
            this.setState({
-             name: text
+             name: text,
            });
          }}
-         value = {this.state.name}
+         value={this.state.name}
        />
        <TouchableOpacity
          onPress={() => {
